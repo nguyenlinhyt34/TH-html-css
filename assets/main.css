@@ -50,11 +50,19 @@ display: inline-block;
     margin-left: 5px;
     display: inline-flex;
 }
+.fa-bag-shopping{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-left: 5px;
+    display:inline;
+}
 span{
     cursor: text;
     color: white;
 }
+
 .header__notify{
+    display:none;
     position: absolute;
     top: 100%;
     width: 404px;
@@ -76,6 +84,73 @@ span{
     margin-left: 40px;
     display: flex;
 }
-.header__notify{}
-.header__notify-item{}
-.header__notify-link{}
+
+.header__notify-item{
+
+}
+
+.header__notify-link{
+
+}
+
+.header__notify-info{
+
+}
+
+.header__notify-name{
+
+}
+
+.header__notify-name{
+    
+}
+.header__notify-descriotion{
+
+}
+
+.header-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+
+}
+.header-logo, .header-cart {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-logo > .fa-bag-shopping,
+.header-cart > .fa-cart-shopping {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.header-cart{
+    position: relative;
+    margin-left: 150px;
+    cursor: pointer;
+    color: white;
+    
+}
+.header-search-input{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px; 
+    padding-left: 20px;
+
+}
+
+.header-search-btn{
+    height: 40px;
+
+    border-radius: 20px;
+    border: none;
+    background-color: #4d4a49;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-left: 10px;
+}
+
